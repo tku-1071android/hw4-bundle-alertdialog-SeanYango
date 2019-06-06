@@ -44,7 +44,7 @@ public class ResultActivity extends AppCompatActivity {
     else if(average>=60){
     message="Congragulations!";
     title="Pass";
-    pic=R.drawable.dangerous;
+    pic=R.drawable.pass;
     }
     else if(average<60){
         message="You are too weak!";
