@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         etAlgorithm=(EditText)findViewById(R.id.editText4);
     }
     private boolean isValid(EditText editText) {
-        String pattern = "1[0][2]|[0-9]{1,3}";
+        String pattern = "1[0][2]|[0-9]{1,2}";
         String text=editText.getText().toString();
         if(!text.matches(pattern)){
             editText.setError("0~100");
